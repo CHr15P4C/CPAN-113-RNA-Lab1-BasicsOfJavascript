@@ -1,7 +1,7 @@
 //creating and logging 3 variables
 
 let studentName = "Christopher Pacitti";
-let studentAge = "28";
+let studentAge = 28;
 let isEnrolled = true;
 
 console.log(studentName, studentAge, isEnrolled)
@@ -14,7 +14,7 @@ var anInt = 3;
 var aBoolean = false; 
 var anArray = ["A", "Collectin", "Of", "Values"];
 
-const studentInfo = new Object();
+let studentInfo = new Object();
 studentInfo.name = studentName;
 studentInfo.age = studentAge;
 studentInfo.enrollment = isEnrolled;
