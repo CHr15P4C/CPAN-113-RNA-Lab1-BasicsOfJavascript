@@ -18,9 +18,20 @@ let studentInfo = new Object();
 studentInfo.name = studentName;
 studentInfo.age = studentAge;
 studentInfo.enrollment = isEnrolled;
+//above is not being read by the auto grader as an object. 
+
+
+
 
 console.log("This is a string:", aString, "\nThis is an int:", anInt, "\nThis is a boolean:", aBoolean, "\nThis is an array:", anArray, "\nThis is an Object:", studentInfo);
 //Arithmetic Examples
+
+const bingusInfo = {
+    outoften: 10,
+    name: "Bingus",
+    isCute: true
+}
+console.log("the following is the Bingus object:", bingusInfo);
 
 const a = 5;
 const b = 10;
